@@ -5,3 +5,15 @@ body {
     font-family: $font-family; 
     color: $font-color; 
 }
+
+#logo {
+    display: block;
+    width: 300px;
+    
+}
+
+#h_row {
+   .mt-2 {
+        margin-top: ($spacer) !important;
+    } 
+}
