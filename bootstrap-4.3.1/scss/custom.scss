@@ -1,5 +1,6 @@
 $font-family: 'Open Sans', sans-serif;
 $font-color: #333;
+$spacer: 1rem;
 
 body {
     font-family: $font-family; 
@@ -8,12 +9,19 @@ body {
 
 #logo {
     display: block;
-    width: 300px;
+    width: 250px;
     
 }
 
 #h_row {
-   .mt-2 {
+    max-width: 1400px;
+
+   .mt-3 {
         margin-top: ($spacer) !important;
     } 
+    
+}
+
+#cart {
+    font-size: 22px;
 }
