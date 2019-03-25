@@ -1,2 +1,2 @@
-# New-Generation-shop-page
-This is a shopping landing page called New Generation using Bootstrap framework and javascript. 
+# Next Generation shop page
+This is a shopping landing page called Next Generation using Bootstrap framework and javascript. 
