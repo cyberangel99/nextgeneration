@@ -1,10 +1,18 @@
+/* font */
 $font-family: 'Open Sans', sans-serif;
 $font-color: #333;
 $spacer: 1rem;
 
+/* colors */
+$cyan-blue: #00cc99;
+
 body {
     font-family: $font-family; 
     color: $font-color; 
+}
+
+.wrapper {
+    max-width: 1400px;
 }
 
 #logo {
@@ -14,14 +22,30 @@ body {
 }
 
 #h_row {
-    max-width: 1400px;
-
    .mt-3 {
         margin-top: ($spacer) !important;
+    }
+    .mr-4 {
+        margin-right: ($spacer) * 1.5;
     } 
     
 }
 
+.blog-title {
+    margin-right: 8px;
+}
+
 #cart {
     font-size: 22px;
+}
+
+#nav-bar {
+    background-color: $cyan-blue;
+
+    ul {
+        list-style-type: none;
+        li {
+            display: inline-block;
+        }
+    }
 }
