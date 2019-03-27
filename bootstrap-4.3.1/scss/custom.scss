@@ -13,6 +13,8 @@ body {
 
 .wrapper {
     max-width: 1400px;
+    padding: 0px;
+   
 }
 
 #logo {
@@ -22,13 +24,13 @@ body {
 }
 
 #h_row {
-   .mt-3 {
-        margin-top: ($spacer) !important;
+    background-color: $cyan-blue;
+   .mt-4 {
+        margin-top: ($spacer) * 1.5;
     }
     .mr-4 {
         margin-right: ($spacer) * 1.5;
-    } 
-    
+    }
 }
 
 .blog-title {
@@ -37,11 +39,12 @@ body {
 
 #cart {
     font-size: 22px;
+    .mt-4 {
+        margin-top: ($spacer) * 1.5;
+    }
 }
 
 #nav-bar {
-    background-color: $cyan-blue;
-
     ul {
         list-style-type: none;
         li {
