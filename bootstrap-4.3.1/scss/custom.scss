@@ -1,10 +1,12 @@
 /* font */
 $font-family: 'Open Sans', sans-serif;
 $font-color: #333;
+$font-color2: #FFFFFF;
+
 $spacer: 1rem;
 
 /* colors */
-$cyan-blue: #00cc99;
+$cyan-blue: #624db7;
 
 body {
     font-family: $font-family; 
@@ -31,11 +33,15 @@ body {
     .mr-4 {
         margin-right: ($spacer) * 1.5;
     }
+    .blog-title {
+        margin-right: 11px;
+        margin-left: 20px;
+    }
+    .blog a {
+        color:$font-color2
+    }
 }
 
-.blog-title {
-    margin-right: 8px;
-}
 
 #cart {
     font-size: 22px;
@@ -50,5 +56,11 @@ body {
         li {
             display: inline-block;
         }
+    }
+    .m-4 {
+        margin: ($spacer) * 1.5;
+    }
+    nav ul li a {
+        margin-right: 30px;
     }
 }
