@@ -20,7 +20,6 @@ body {
 }
 
 #logo {
-    display: block;
     width: 250px;
     
 }
@@ -63,4 +62,10 @@ body {
     nav ul li a {
         margin-right: 30px;
     }
+}
+
+#hero {
+    background: linear-gradient(to right,rgba(41, 69, 182, .5), rgba(113, 247, 104, .5)), url(../../../nextgeneration/assets/hero.png) center, center, no-repeat;
+    height: 100vh;
+    background-size: cover;
 }
