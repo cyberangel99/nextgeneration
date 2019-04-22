@@ -25,19 +25,11 @@ body {
 }
 
 #h_row {
-    background-color: $cyan-blue;
    .mt-4 {
         margin-top: ($spacer) * 1.5;
     }
     .mr-4 {
         margin-right: ($spacer) * 1.5;
-    }
-    .blog-title {
-        margin-right: 11px;
-        margin-left: 20px;
-    }
-    .blog a {
-        color:$font-color2
     }
 }
 
@@ -65,7 +57,8 @@ body {
 }
 
 #hero {
-    background: linear-gradient(to right,rgba(41, 69, 182, .5), rgba(113, 247, 104, .5)), url(../../../nextgeneration/assets/hero.png) center, center, no-repeat;
+    background: linear-gradient(to right,rgba(41, 69, 182, .5), rgba(113, 247, 104, .5)), url(../../../nextgeneration/assets/hero3.png) center, center, no-repeat;
     height: 100vh;
     background-size: cover;
+    position: relative;
 }
