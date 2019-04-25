@@ -33,11 +33,19 @@ body {
     }
 }
 
-
+#nav-bar {
+    .links li a {
+        color: white;
+        text-decoration: none;
+    }
+}
 #cart {
     font-size: 22px;
     .mt-4 {
         margin-top: ($spacer) * 1.5;
+    } 
+    .icons a i{
+        color:white;
     }
 }
 
@@ -61,4 +69,8 @@ body {
     height: 100vh;
     background-size: cover;
     position: relative;
+    .hero_logo{
+    max-width: 100%;
+    display: block;
+    }
 }
