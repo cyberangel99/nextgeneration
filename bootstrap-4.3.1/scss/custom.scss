@@ -32,10 +32,12 @@ body {
         margin-right: ($spacer) * 1.5;
     }
     
+    
 }
 .is-sticky #h_row {
         background-color: aqua;
         transition: all 1s ease;
+        z-index:99 !important;
     }
 
 #nav-bar {

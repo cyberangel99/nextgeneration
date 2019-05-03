@@ -60,113 +60,162 @@
     </nav>
     <div>
       <img src="./assets/ng-logo.png" alt="logo" class="hero_logo" /></a>
-      <h2>The only place where alternative style is found</h2>
     </div>
   </section>
-  <section>
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item active" aria-current="page">Shop</li>
-        <li class="breadcrumb-item active" aria-current="page">All</li>
-      </ol>
-    </nav>
-    <section class="container-fluid">
-      <div class="row">
-        <div class="col-4">
-          <div>
-            <h3>Filter</h3>
+  <section class="container-fluid wrapper">
+    <div class="row">
+      <div class="col-md-6">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Shop</li>
+            <li class="breadcrumb-item active" aria-current="page">All</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="col-md-6">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Sort by
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Price: Low to High</a>
+            <a class="dropdown-item" href="#">Price: High to Low</a>
           </div>
-          <div>
-            <h3>
-              Color
-            </h3>
-            <div>
-              <input type="checkbox" name="red" value="red">Red<br>
-              <input type="checkbox" name="blue" value="blue">Blue<br>
-              <input type="checkbox" name="green" value="green">Green<br>
-              <input type="checkbox" name="yellow" value="yellow">Yellow<br>
-              <input type="checkbox" name="orange" value="orange">Orange<br>
-              <input type="checkbox" name="purple" value="purple">Purple<br>
-              <input type="checkbox" name="brown" value="brown">Brown<br>
-              <input type="checkbox" name="black" value="black">Black<br>
-              <input type="checkbox" name="white" value="white">White<br>
-            </div>
-            <h3>
-              Clothing
-            </h3>
-            <div>
-              <input type="checkbox" name="tops" value="tops">Tops<br>
-              <input type="checkbox" name="bottoms" value="bottoms">Bottoms<br>
-              <input type="checkbox" name="outerwear" value="outerwear">Outerwear<br>
-              <input type="checkbox" name="shoes" value="shoes">Shoes<br>
-              <input type="checkbox" name="accessories" value="accessories">accessories<br>
-            </div>
-          </div>
-
-
         </div>
-        <div class="col-8">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">card text</p>
-                  </div>
+      </div>
+    </div>
+  </section>
+  <!--aside bar-->
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-2">
+        <h3>Filters</h3>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Clothing
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                  <input type="checkbox" name="tops" value="tops">Men<br>
+                  <input type="checkbox" name="bottoms" value="bottoms">Womens<br>
+                  <input type="checkbox" name="outerwear" value="outerwear">Kids<br>
+                  <input type="checkbox" name="shoes" value="shoes">Sale<br>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Category
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                  <input type="checkbox" name="tops" value="tops">Tops<br>
+                  <input type="checkbox" name="bottoms" value="bottoms">Bottoms<br>
+                  <input type="checkbox" name="outerwear" value="outerwear">Outerwear<br>
+                  <input type="checkbox" name="shoes" value="shoes">Shoes<br>
+                  <input type="checkbox" name="accessories" value="accessories">accessories<br> 
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  Color
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                  <input type="checkbox" name="red" value="red">Red<br>
+                  <input type="checkbox" name="blue" value="blue">Blue<br>
+                  <input type="checkbox" name="green" value="green">Green<br>
+                  <input type="checkbox" name="yellow" value="yellow">Yellow<br>
+                  <input type="checkbox" name="orange" value="orange">Orange<br>
+                  <input type="checkbox" name="purple" value="purple">Purple<br>
+                  <input type="checkbox" name="brown" value="brown">Brown<br>
+                  <input type="checkbox" name="black" value="black">Black<br>
+                  <input type="checkbox" name="white" value="white">White<br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">card text</p>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">card text</p>
-                  </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">card text</p>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">card text</p>
-                  </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">card text</p>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">card text</p>
-                  </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">card text</p>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">card text</p>
-                  </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">card text</p>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">card text</p>
-                  </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/shoes.png" class="card-img-top" alt="shoe">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">card text</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
   </section>
   <footer>footer</footer>
 

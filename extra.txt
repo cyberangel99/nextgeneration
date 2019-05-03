@@ -1,0 +1,30 @@
+ <div>
+            <h3>Filter</h3>
+          </div>
+          <div>
+            <h3>
+              Color
+            </h3>
+            <div>
+              <input type="checkbox" name="red" value="red">Red<br>
+              <input type="checkbox" name="blue" value="blue">Blue<br>
+              <input type="checkbox" name="green" value="green">Green<br>
+              <input type="checkbox" name="yellow" value="yellow">Yellow<br>
+              <input type="checkbox" name="orange" value="orange">Orange<br>
+              <input type="checkbox" name="purple" value="purple">Purple<br>
+              <input type="checkbox" name="brown" value="brown">Brown<br>
+              <input type="checkbox" name="black" value="black">Black<br>
+              <input type="checkbox" name="white" value="white">White<br>
+            </div>
+            <h3>
+              Clothing
+            </h3>
+            <div>
+              <input type="checkbox" name="tops" value="tops">Tops<br>
+              <input type="checkbox" name="bottoms" value="bottoms">Bottoms<br>
+              <input type="checkbox" name="outerwear" value="outerwear">Outerwear<br>
+              <input type="checkbox" name="shoes" value="shoes">Shoes<br>
+              <input type="checkbox" name="accessories" value="accessories">accessories<br>
+            </div>
+          </div>
+        </div>
