@@ -34,6 +34,15 @@ body {
     
 }
 
+#accordionCard {
+    .card-header {
+        background-color: #624db7;
+    }
+    .buttonCard {
+        color:white;
+    }
+}
+
 #h_row {
     transition: all 1s ease;
    .mt-4 {
@@ -66,6 +75,17 @@ body {
         font-size: 19px;
         color:$font-color2;
     }
+}
+
+//card spacing
+.mt-4 {
+    margin-top: ($spacer) * 1.5;
+} 
+.mb-4 {
+    margin-bottom: ($spacer) * 1.5;
+} 
+#dropdownButton {
+    background-color: #624db7;
 }
 
 #hero-logo {
@@ -103,5 +123,7 @@ body {
 #footer {
     background: linear-gradient(to right,rgba(41, 69, 182, .5), rgba(113, 247, 104, .5)), url(../../../nextgeneration/assets/skater1.jpg) center, center, no-repeat;
     color:$font-color2;
+    padding:100px;
+    
 }
 
