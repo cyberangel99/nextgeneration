@@ -120,6 +120,11 @@ body {
     display: block;
     }
 }
+
+#pageList {
+    display: inline-block;
+    text-decoration: none;
+}
 #footer {
     background: linear-gradient(to right,rgba(41, 69, 182, .5), rgba(113, 247, 104, .5)), url(../../../nextgeneration/assets/skater1.jpg) center, center, no-repeat;
     color:$font-color2;
