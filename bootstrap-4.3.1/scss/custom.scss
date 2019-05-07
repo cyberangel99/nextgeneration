@@ -7,6 +7,7 @@ $spacer: 1rem;
 
 /* colors */
 $cyan-blue: #624db7;
+$background-color: #5E35B1;
 
 body {
     font-family: $font-family; 
@@ -15,6 +16,16 @@ body {
 
 .wrapper {
     max-width: 1400px;
+}
+
+#sort {
+    .breadcrumb{
+        background-color: $font-color2; 
+        padding: 0;        
+  }
+    .m-3 {
+        margin: $spacer;
+    }
 }
 
 #logo {
@@ -35,7 +46,7 @@ body {
     
 }
 .is-sticky #h_row {
-        background-color: aqua;
+        background-color: $background-color;
         transition: all 1s ease;
         z-index:99 !important;
     }
@@ -53,10 +64,17 @@ body {
     } 
     .icons a i{
         font-size: 19px;
-        color:white;
+        color:$font-color2;
     }
 }
 
+#hero-logo {
+    max-width:100%;
+
+    .mt-5 {
+        margin-top: ($spacer) * 3;
+    } 
+}
 #nav-bar {
     ul {
         list-style-type: none;
@@ -82,3 +100,8 @@ body {
     display: block;
     }
 }
+#footer {
+    background: linear-gradient(to right,rgba(41, 69, 182, .5), rgba(113, 247, 104, .5)), url(../../../nextgeneration/assets/skater1.jpg) center, center, no-repeat;
+    color:$font-color2;
+}
+
