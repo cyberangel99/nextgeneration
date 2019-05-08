@@ -121,14 +121,27 @@ body {
     }
 }
 
-#pageList {
-    display: inline-block;
-    text-decoration: none;
+#pages {
+    .mx-auto {
+       width:100px; 
+    } 
 }
 #footer {
     background: linear-gradient(to right,rgba(41, 69, 182, .5), rgba(113, 247, 104, .5)), url(../../../nextgeneration/assets/skater1.jpg) center, center, no-repeat;
     color:$font-color2;
     padding:100px;
-    
+   .row {
+    margin-left: 14%;
+   } 
+   .row h4 {
+       text-align: center;
+   }
+   .row ul {
+    padding:0;
+   }
+   .row ul li {
+    list-style: none;
+    text-align: center;
+   }
 }
 

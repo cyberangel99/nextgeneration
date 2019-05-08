@@ -94,7 +94,7 @@
 
   <!--filter bar-->
   <section id="accordionCard">
-    <div class="container-fluid">
+    <div class="container-fluid wrapper">
       <div class="row">
         <div class="col-2">
           <h3 class="filter">Filters</h3>
@@ -164,7 +164,7 @@
 
         <!--cards-->
         <div class="col-10">
-          <div class="container-fluid">
+          <div class="container-fluid wrapper">
             <div class="row">
               <div class="col-md-4">
                 <div class="card">
@@ -361,29 +361,36 @@
       </div>
     </div>
   </section>
-  <section id="pageList" class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <ul class="pages">
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-        </ul>
-      </div>
-    </div>
+  <section id="pages" class="container-fluid wrapper">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination mx-auto">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </section>
   <!--footer-->
-  <footer class="container-fluid" id="footer">
+  <footer class="container-fluid wrapper" id="footer">
     <div class="row">
       <div class="col-md-2">
         <h4>Company</h4>
         <ul>
           <li>About Us</li>
-          <li>Careers and Jobs</li>
+          <li>Careers</li>
         </ul>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-3">
         <h4>Orders</h4>
         <ul>
           <li>Track Orders</li>
@@ -391,7 +398,7 @@
           <li>Returns</li>
         </ul>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <h4>Guest Services</h4>
         <ul>
           <li>FAQs</li>
@@ -412,30 +419,20 @@
 
 
 
-
-
-
-
-
-
-
-
-    <footer>
-
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-      <!-- JavaScript -->
-      <script src="sticky.js"></script>
-      <script src="nextgeneration.js"></script>
-    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="sticky.js"></script>
+    <script src="nextgeneration.js"></script>
+  </footer>
 </body>
 
 </html>
