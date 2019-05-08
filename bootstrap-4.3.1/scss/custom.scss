@@ -143,5 +143,20 @@ body {
     list-style: none;
     text-align: center;
    }
+   .social-icons li {
+       display: inline-block;
+       font-size: 2em;
+   }
+   .social-icons li a {
+    color: $font-color2;
+    }
+    .mx-auto {
+        width: 125px; 
+     } 
+}
+
+#footer li a {
+    color: $font-color2;
+    text-decoration: none; 
 }
 
