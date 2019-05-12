@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "Nike shoes",
+        "description":"Black Nike shoes",
+        "price": 75,
+        "image":"./assets/shoes.png",
+        "category":"shoes",
+        "clothing":"mens",
+        "color":"black"
+    },
+    {
+        "id": 2,
+        "name": "nylon shirt",
+        "description":"Neon nylon shirt",
+        "price": 35,
+        "image":"./assets/shoes.png",
+        "category":"tops",
+        "clothing":"mens",
+        "color":"yellow"
+    },
+    {
+        "id": 3,
+        "name": "jean shorts",
+        "description":"blue jean shorts",
+        "price": 65,
+        "image":"./assets/shoes.png",
+        "category":"bottoms",
+        "clothing":"womens",
+        "color":"blue"
+    },
+    {
+        "id": 4,
+        "name": "feather coat",
+        "description":"thick winter coat",
+        "price": 109,
+        "image":"./assets/shoes.png",
+        "category":"outerwear",
+        "clothing":"womens",
+        "color":"green"
+    },
+    {
+        "id": 5,
+        "name": "skate shirt",
+        "description":"Dora skate shirt",
+        "price": 35,
+        "image":"./assets/shoes.png",
+        "category":"tops",
+        "clothing":"kids",
+        "color":"blue"
+    }
+]
+
