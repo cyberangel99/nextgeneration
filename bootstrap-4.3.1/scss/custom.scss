@@ -51,7 +51,9 @@ body {
     .mr-4 {
         margin-right: ($spacer) * 1.5;
     }
-    
+.col-md-6 {
+    padding: 0;
+}    
     
 }
 .is-sticky #h_row {
@@ -61,6 +63,8 @@ body {
     }
 
 #nav-bar {
+        margin-top: 20px;
+        margin-left: 19%;
     .links li a {
         font-size: 15px;
         color: white;
@@ -71,6 +75,12 @@ body {
     .mt-4 {
         margin-top: ($spacer) * 1.5;
     } 
+    .mt-2 {
+        margin-right: $spacer * .5;
+    }
+    .mt-3 {
+        margin-right: $spacer;
+    }
     .icons a i{
         font-size: 19px;
         color:$font-color2;
