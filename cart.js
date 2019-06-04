@@ -8,11 +8,6 @@ $(document).ready(function () {
         })
     })
 
-    $("#clothing_type :checkbox").change(function (e) {//how to obtain all the checkboxes under that id div
-        var value = e.target.value//how to get the value of an event user input
-        localStorage.setItem("clothing", value);//storing data in local storage
-    })
-
     //search filter
     const searchBar = document.getElementById('searchBox');
     searchBar.addEventListener('keyup', function (e) {
@@ -20,6 +15,7 @@ $(document).ready(function () {
         const products = JSON.parse(localStorage.getItem('products'))
         //clears the other products that are not searched when an item is searched
         $("#products").html("");
+        //shows the product that is searched
         products.filter(p => {
             if (p.name.toLowerCase().indexOf(term) > -1) {
                 showProducts(p);
