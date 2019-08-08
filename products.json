@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Nike shoes",
         "description":"Black Nike shoes",
-        "price": 75,
+        "price": "$75.00",
         "image":"./assets/shoes.png",
         "category":"shoes",
         "clothing":"mens",
@@ -11,43 +11,114 @@
     },
     {
         "id": 2,
-        "name": "nylon shirt",
-        "description":"Neon nylon shirt",
-        "price": 35,
-        "image":"./assets/shoes.png",
-        "category":"tops",
-        "clothing":"mens",
-        "color":"yellow"
-    },
-    {
-        "id": 3,
-        "name": "jean shorts",
-        "description":"blue jean shorts",
-        "price": 65,
-        "image":"./assets/shoes.png",
+        "name": "Skater's jeans",
+        "description":"Distress blue jeans",
+        "price": "$35.00",
+        "image":"./assets/jeans-1.jpg",
         "category":"bottoms",
-        "clothing":"womens",
+        "clothing":"mens",
         "color":"blue"
     },
     {
+        "id": 3,
+        "name": "Adidas Hoodie",
+        "description":"White Adidas hoodie",
+        "price": "$65.00",
+        "image":"./assets/hoodie-1.jpg",
+        "category":"tops",
+        "clothing":"womens",
+        "color":"white"
+    },
+    {
         "id": 4,
-        "name": "feather coat",
-        "description":"thick winter coat",
-        "price": 109,
-        "image":"./assets/shoes.png",
-        "category":"outerwear",
+        "name": "Sport Dress",
+        "description":"Striped sport dress",
+        "price": "$69.00",
+        "image":"./assets/dress-1.jpg",
+        "category":"tops",
         "clothing":"womens",
         "color":"green"
     },
     {
         "id": 5,
-        "name": "skate shirt",
-        "description":"Dora skate shirt",
-        "price": 35,
-        "image":"./assets/shoes.png",
-        "category":"tops",
-        "clothing":"kids",
+        "name": "Nike shoes",
+        "description":"Blue Nike shoes",
+        "price": "$75.00",
+        "image":"./assets/shoes-2.jpg",
+        "category":"shoes",
+        "clothing":"mens",
         "color":"blue"
+    },
+    {
+        "id": 6,
+        "name": "Sun Gaze hoodie",
+        "description":"Hoodie Jacket",
+        "price": "$45.00",
+        "image":"./assets/hoodie-2.jpg",
+        "category":"tops",
+        "clothing":"mens",
+        "color":"yellow"
+    },
+    {
+        "id": 7,
+        "name": "Kind is the New Cool Shirt",
+        "description":"Black shirt",
+        "price": "$25.00",
+        "image":"./assets/shirt-1.jpg",
+        "category":"top",
+        "clothing":"mens",
+        "color":"black"
+    },
+    {
+        "id": 8,
+        "name": "Pizza over Fresh Shirt",
+        "description":"Pizza logo shirt",
+        "price": "$35.00",
+        "image":"./assets/shirt-2.jpg",
+        "category":"tops",
+        "clothing":"mens",
+        "color":"white"
+    },
+    {
+        "id": 9,
+        "name": "Levi's Jeans",
+        "description":"Blue, red, white Levi's jeans",
+        "price": "$55.00",
+        "image":"./assets/jeans-2.jpg",
+        "category":"bottoms",
+        "clothing":"mens",
+        "color":"blue"
+    },
+    {
+        "id": 10,
+        "name": "Vans shoes",
+        "description":"Golden Vans shoes",
+        "price": "$65.00",
+        "image":"./assets/shoes-3.jpg",
+        "category":"shoes",
+        "clothing":"mens",
+        "color":"yellow"
+    },
+    {
+        "id": 11,
+        "name": "Hunter Jacket",
+        "description":"Camouflage Jacket",
+        "price": "$65.00",
+        "image":"./assets/jacket-1.jpg",
+        "category":"Outerwear",
+        "clothing":"mens",
+        "color":"green"
+    },
+    {
+        "id": 12,
+        "name": "Peace shirt",
+        "description":"Black hand peace shirt",
+        "price": "$35.00",
+        "image":"./assets/shirt-3.jpg",
+        "category":"tops",
+        "clothing":"womens",
+        "color":"black"
     }
+    
 ]
 
