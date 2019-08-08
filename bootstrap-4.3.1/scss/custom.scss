@@ -18,6 +18,10 @@ body {
     max-width: 1400px;
 }
 
+.toast {
+    background-color: rgba(255,255,255,1);
+}
+
 #sort {
     .breadcrumb{
         background-color: $font-color2; 
@@ -87,7 +91,7 @@ body {
     }
 }
 
-.cart-button {
+.add-cart-button, .delete-cart-button {
     float:right;
     background-color: #5E35B1;
     border-color: #5E35B1;

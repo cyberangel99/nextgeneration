@@ -56,7 +56,8 @@
             <input type="text" id="searchBox" placeholder="Search">
             <a href="#"><i class="fas fa-search mt-2"></i></a>
             <a href="#"><i class="fas fa-user mt-2"></i></a>
-            <a href="#"><i class="fas fa-shopping-cart mt-2"></i><span class="badge badge-pill badge-primary cartBadge"></span></a>
+            <a href="#"><i class="fas fa-shopping-cart mt-2"></i><span
+                class="badge badge-pill badge-primary cartBadge"></span></a>
           </div>
         </div>
       </div>
@@ -230,14 +231,39 @@
       </div>
     </div>
   </footer>
-  <div id="products-hidden" class="d-none"></div><!--to hide the code on the website-->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- JavaScript -->
-    <script src="sticky.js"></script>
-    <script src="nextgeneration.js"></script>
-    <script src="cart.js"></script>
-  </body>
+  <div id="products-hidden" class="d-none"></div>
+  <!--to hide the code on the website-->
+  <!-- Toaster -->
+  <div class="toast" role="alert" aria-live="assertive" data-autohide="true" aria-atomic="true"
+    style="position: fixed; top: 0; right: 0;z-index: 999;">
+    <div class="toast-header">
+      <strong class="mr-auto productMsg"></strong>
+      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="toast-body">
+      <div class="row">
+        <div class="col-md-6">
+          <img style="max-width: 150px;" class="productImg" />
+        </div>
+        <div class="col-md-6">
+          <h5 class="productName"></h5>
+          <p class="productDesc"></p>
+          <p>$<span class="productPrice"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.toaster -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- JavaScript -->
+  <script src="sticky.js"></script>
+  <script src="nextgeneration.js"></script>
+  <script src="cart.js"></script>
+</body>
+
 </html>
