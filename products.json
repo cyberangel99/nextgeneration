@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "name": "Skater's jeans",
+        "name": "Skater's jeans pants",
         "description":"Distress blue jeans",
         "price": "$35.00",
         "image":"./assets/jeans-1.jpg",
@@ -81,7 +81,7 @@
     },
     {
         "id": 9,
-        "name": "Levi's Jeans",
+        "name": "Levi's Jeans pants",
         "description":"Blue, red, white Levi's jeans",
         "price": "$55.00",
         "image":"./assets/jeans-2.jpg",
