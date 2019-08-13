@@ -183,3 +183,9 @@ body {
     text-decoration: none; 
 }
 
+#products {
+    .card-img-top {
+        max-height: 350px;
+    }
+}
+
