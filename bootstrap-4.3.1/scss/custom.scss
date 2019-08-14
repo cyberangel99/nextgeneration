@@ -111,6 +111,7 @@ body {
     background-color: #624db7;
 }
 
+
 #hero-logo {
     max-width:100%;
 
@@ -184,8 +185,9 @@ body {
 }
 
 #products {
+    padding-bottom: 30px;
     .card-img-top {
-        max-height: 350px;
+        max-height: 400px;
     }
 }
 

@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "name": "Nike shoes",
-        "description":"Black Nike shoes",
-        "price": "$75.00",
-        "image":"./assets/shoes.png",
+        "name": "NConverse shoes",
+        "description":"Brown Converse shoes",
+        "price": "$65.00",
+        "image":"./assets/shoes-4.jpg",
         "category":"shoes",
         "clothing":"mens",
-        "color":"black"
+        "color":"brown"
     },
     {
         "id": 2,
@@ -31,23 +31,23 @@
     },
     {
         "id": 4,
-        "name": "Sport Dress",
-        "description":"Striped sport dress",
-        "price": "$69.00",
-        "image":"./assets/dress-1.jpg",
+        "name": "Culprit Apparel",
+        "description":"Grey shirt",
+        "price": "$30.00",
+        "image":"./assets/shirt-4.jpg",
         "category":"tops",
         "clothing":"womens",
-        "color":"green"
+        "color":"gray"
     },
     {
         "id": 5,
-        "name": "Nike shoes",
-        "description":"Blue Nike shoes",
-        "price": "$75.00",
-        "image":"./assets/shoes-2.jpg",
-        "category":"shoes",
+        "name": "Maker's watch",
+        "description":"men watch",
+        "price": "$55.00",
+        "image":"./assets/watch-1.jpg",
+        "category":"accessories",
         "clothing":"mens",
-        "color":"blue"
+        "color":"black"
     },
     {
         "id": 6,
@@ -61,13 +61,13 @@
     },
     {
         "id": 7,
-        "name": "Kind is the New Cool Shirt",
-        "description":"Black shirt",
-        "price": "$25.00",
-        "image":"./assets/shirt-1.jpg",
-        "category":"top",
+        "name": "Blue cool Jean Jacket",
+        "description":"Jean Jacket",
+        "price": "$45.00",
+        "image":"./assets/jacket-2.jpg",
+        "category":"outerwear",
         "clothing":"mens",
-        "color":"black"
+        "color":"blue"
     },
     {
         "id": 8,
