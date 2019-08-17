@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "NConverse shoes",
+        "name": "Converse shoes",
         "description":"Brown Converse shoes",
         "price": "$65.00",
         "image":"./assets/shoes-4.jpg",

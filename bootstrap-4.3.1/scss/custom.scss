@@ -37,6 +37,12 @@ body {
     height: 60px;
     
 }
+#hero-logo {
+    .ng_logo {
+        max-width:100%;
+    }
+
+}
 
 #accordionCard {
     .card-header {
@@ -58,7 +64,9 @@ body {
 .col-md-6 {
     padding: 0;
 }    
-    
+.mobile {
+    display: none;
+}   
 }
 .is-sticky #h_row {
         background-color: $background-color;
@@ -135,7 +143,7 @@ body {
 }
 
 #hero {
-    background: linear-gradient(to right,rgba(41, 69, 182, .5), rgba(113, 247, 104, .5)), url(../../../nextgeneration/assets/hero3.png) center, center, no-repeat;
+    background: linear-gradient(to right,rgba(41, 69, 182, .5), rgba(113, 247, 104, .5)), url(../../../nextgeneration/assets/hero3.png) top, right, no-repeat;
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -191,3 +199,22 @@ body {
     }
 }
 
+// media queries 
+
+@media only screen and (max-width: 900px) {
+
+}
+@media only screen and (max-width: 700px) {
+.navbar-toggler {
+    background-color: white;
+    color:grey;
+    }
+#logo {
+    display: none;
+}
+#hero .mobile {
+    display:inline-block;
+    max-width: 15%;
+}
+}
+@media only screen and (max-width: 500px) {}
