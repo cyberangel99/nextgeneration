@@ -217,9 +217,16 @@ body {
     }
 
 }
+#hero2 {
+    display:none;
+}
 // media queries 
 
 @media only screen and (max-width: 992px) {
+    #hero {
+        background-image: url(../../../nextgeneration/assets/hero-2.jpg);
+        
+    }
     .mobile-cart-icon {
         display: inline-block !important;
     }
@@ -245,6 +252,7 @@ body {
 #logo {
     display: none;
 }
+
 #hero .mobile {
     display:inline-block;
     max-width: 100%;
