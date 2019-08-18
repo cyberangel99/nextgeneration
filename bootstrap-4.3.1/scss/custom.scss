@@ -20,6 +20,13 @@ body {
 
 .toast {
     background-color: rgba(255,255,255,1);
+    width: 0px;
+    &.show {
+        width: auto;
+    }
+    &.hide {
+        width: 0px !important;
+    }
 }
 
 #sort {
@@ -75,8 +82,7 @@ body {
     }
 
 #nav-bar {
-        margin-top: 20px;
-        margin-left: 19%;
+        margin-top: 15px;
     .links li a {
         font-size: 15px;
         color: white;
@@ -106,7 +112,7 @@ body {
 }
 
 .cartBadge {
-    margin-left: -11px;
+    margin-left: -1px;
 }
 //card spacing
 .mt-4 {
@@ -130,6 +136,9 @@ body {
 #nav-bar {
     ul {
         list-style-type: none;
+        padding: 0;
+        width: 100%;
+        display: block;
         li {
             display: inline-block;
         }
@@ -159,7 +168,8 @@ body {
     } 
 }
 #footer {
-    background: linear-gradient(to right,rgba(41, 69, 182, .5), rgba(113, 247, 104, .5)), url(../../../nextgeneration/assets/skater1.jpg) center, center, no-repeat;
+    background: linear-gradient(to right,rgba(41, 69, 182, .5), rgba(113, 247, 104, .5)), url(../../../nextgeneration/assets/skater1.jpg) center center, no-repeat;
+    background-size: cover;
     color:$font-color2;
     padding:100px;
    .row {
@@ -199,22 +209,47 @@ body {
     }
 }
 
-// media queries 
-
-@media only screen and (max-width: 900px) {
+.mobile-cart-icon {
+    display: none !important;
+    margin-left: 15px;
+    .fas {
+        color: #FFF;
+    }
 
 }
-@media only screen and (max-width: 700px) {
-.navbar-toggler {
-    background-color: white;
-    color:grey;
+// media queries 
+
+@media only screen and (max-width: 992px) {
+    .mobile-cart-icon {
+        display: inline-block !important;
     }
+    .navbar-toggler {
+        background-color: white;
+        color:grey;
+        }
+    #nav-bar ul {
+        padding: 15px;
+        background: #17a2b8;
+        border-radius: 4px;
+        max-width: 300px;
+        float: right;
+        li {
+            display: block;
+        }
+    }
+    .cartLink {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 720px) {
 #logo {
     display: none;
 }
 #hero .mobile {
     display:inline-block;
-    max-width: 15%;
+    max-width: 100%;
+    width: 80px;
+    padding: 15px;
 }
 }
-@media only screen and (max-width: 500px) {}
+@media only screen and (max-width: 540px) {}
